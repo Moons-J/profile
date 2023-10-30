@@ -1,0 +1,118 @@
+.container {
+  margin: 50px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: auto;
+  }
+}
+
+body {
+  background-color:antiquewhite;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #3A4D39;
+  font-size:large;
+  line-height: 1.4
+}
+
+h1, h2, h3 {
+  /* font-family: 'Almendra Display', serif; */
+  font-family: 'Modern Antiqua', serif;
+  font-weight: bold;
+  color: #4F6F52;
+  line-height: 1;
+}
+
+#icon {
+  color: blueviolet;
+  text-decoration:double;
+  font-size: 75px;
+}
+
+#icon:hover {
+  color: rgb(59, 209, 214);
+  text-shadow: 0px 0px 5px;
+  transition: 0.5s;
+}
+
+
+
+.card {
+  background-color:cornsilk;
+  padding: 50px;
+  box-shadow: 0px 0px 30px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.card-icon {
+  background-color:cornsilk;
+  padding-top: 30px;
+  box-shadow: 0px 0px 30px;
+  border-radius: 10px;
+  margin-top: 20px 0px;
+  text-align: center;
+}
+
+.btn {
+  background-color: blueviolet;
+  color: antiquewhite;
+  font-family: 'Modern Antiqua', serif;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 24px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  background-color: rgb(59, 209, 214);
+  transition: 0.5s;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+div {
+  display: blocks;
+}
+
+#avatar {
+  /* border: 5px solid #65451F; */
+  box-shadow: 0px 0px 20px;
+  border-radius: 100px
+}
